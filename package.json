@@ -1,0 +1,15 @@
+{
+  "name": "rick",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@lottiefiles/lottie-player": "^1.0.6",
+    "axios": "^0.21.1",
+    "buefy": "^0.9.8",
+    "gridsome": "^0.7.0"
+  }
+}
