@@ -19,4 +19,4 @@ Test 24/06/21
 
 ## Components
 
-- CardPerso permet de choisir la position pour cela il faut changer "positionImage : img__left || img__right"
+- le composent "CardPerso" permet de choisir la position pour cela il faut changer "positionImage : img__left || img__right"
