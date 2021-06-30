@@ -1,6 +1,8 @@
 <template>
   <Layout>
-    <CardPerso positionImage="img__left" :perso="perso" />
+    <div class="container">
+    <CardPerso :flipImage="true" :perso="perso" />
+    </div>
   </Layout>
 </template>
 

@@ -1,12 +1,12 @@
 <template>
-  <div class="column xctr">
+  <div class="column  is-one-third-desktop is-half-tablet is-10-mobile">
     <div class="card">
       <header class="card-header">
         <p class="card-header-title">{{ name }}</p>
       </header>
       <div class="card-image">
-        <figure class="is-4by3">
-          <g-image :src="img" :alt="name" fit="contain" />
+        <figure class="image is-square">
+          <g-image :src="img" :alt="name" fit="contain"  />
         </figure>
       </div>
       <footer class="card-footer">
@@ -25,7 +25,5 @@ export default {
 </script>
 
 <style>
-.xctr {
-  justify-self: center;
-}
+
 </style>

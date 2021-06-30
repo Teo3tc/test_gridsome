@@ -1,6 +1,8 @@
 <template>
   <Layout>
-    <div class="grid4">
+    <div class="container">
+
+    <div class="columns is-flex is-justify-content-center is-vcentered  is-flex-wrap-wrap">
       <Card
         v-for="edge in $page.persoRickmorty.edges"
         :key="edge.node.id"
@@ -8,6 +10,7 @@
         :img="edge.node.img"
         :id="edge.node.id"
       />
+    </div>
     </div>
   </Layout>
 </template>
